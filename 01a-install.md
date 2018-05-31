@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> I have had both Python 2 and Python 3 already installed on my computer and have used both versions while learning Python, as I switch between study materials.  I have been working primarily in Python 2 but will continue in Python 3, as recommended.
+>> I have had both Python 2 and Python 3 already installed on my computer and have used both versions while learning Python, as I switched between study materials.  I have been working primarily in Python 2 but will continue in Python 3, as recommended.
 
 ### Q2. Which Python Version Installed   
 
