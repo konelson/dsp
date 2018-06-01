@@ -34,8 +34,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 11. ls -l = listing files in long format
 12. ls -t = listing files in ordered format
 13. * = wildcard
-14. > = redirects stdin to stdout (overwrites)
-15. >> = redirects by appending (does not overwrite)
+14. ' > ' = redirects stdin to stdout (overwrites)
+15. ' >> ' = redirects by appending (does not overwrite)
 16. cat = outputs the contents of a file to the terminal
 17. | = pipe, or command to command redirection
 18. sort = sorts alphabetically
@@ -65,16 +65,26 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
----
+> >
+`ls`  - lists all files in a directory
+`ls -a`  - displays all contents, including hidden files
+`ls -l`  - displays the long format listing
+`ls -lh`  - displays human readable sizes of long formatted listing
+`ls -lah` - displays all contents, including hidden files, in human readable sizes of long formatted listing
+`ls -t`  - displays the newest files first based on timestamp
+`ls -Glp`- displays directories with slash ("/") in long listing format without the Group names
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
+ls -c	Displays files by file timestamp
+ls -d	Displays only directories  
+ls -m	Displays the names as a comma-separated list
+ls -r	Displays files in reverse order
+ls -R	Displays subdirectories as well
 ---
 
 ### Q4.  Xargs   
