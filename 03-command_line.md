@@ -86,11 +86,15 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 > > 
 
-`ls -c	Displays files by file timestamp`
-`ls -d	Displays only directories`
-`ls -m	Displays the names as a comma-separated list`
-`ls -r	Displays files in reverse order`
-`ls -R	Displays subdirectories as well`
+`ls -c`	Displays files by file timestamp
+
+`ls -d`	Displays only directories
+
+`ls -m`	Displays the names as a comma-separated list
+
+`ls -r`	Displays files in reverse order
+
+`ls -R`	Displays subdirectories as well
 
 > >
 
