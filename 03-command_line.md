@@ -20,8 +20,38 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > 
+1.  pwd = show current working directory path
+2.  mkdir = creating a directory
+3.  rm -r = deleting a directory (and all of its child directories)
+4.  touch = creating a file using `touch` command
+5.  rm = deleting a file
+6.  mv = renaming a file ("move" to new file name)
+7.  ls -a = listing hidden files
+8.  cp =  copying a file from one directory to another
+9.  cd = change directory
+10. cd.. = move up one directory
+11. ls -l = listing files in long format
+12. ls -t = listing files in ordered format
+13. * = wildcard
+14. > = redirects stdin to stdout (overwrites)
+15. >> = redirects by appending (does not overwrite)
+16. cat = outputs the contents of a file to the terminal
+17. | = pipe, or command to command redirection
+18. sort = sorts alphabetically
+19. uniq = filters adjacent duplicate lines
+20. grep = global regular expression print (searches for a text pattern and outputs it)
+21. grep -i = case insentive grep
+22. sed = "Find and Replace" stream editor (searches for text, modifies and replaces the first instance in a line)
+23. g = global (can be used above to replace all instances)
+24. clear = clears terminal window
+25. source = activates changes without closing terminal and starting a new session
+26. alias = creates keyboard shortcuts for commonly used commands
+27. export = makes variable available to all child sessions initiated from current session
+28. PSI = defines the makeup and style of the command prompt
+29. HOME = displays path of home directory
+30. PATH = lists which directories contain scripts
+31. env = return list of environment variables
 ---
 
 ### Q2.  List Files in Unix   
