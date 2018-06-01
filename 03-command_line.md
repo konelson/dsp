@@ -65,20 +65,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls`  - lists all files in a directory
-
-`ls -a`  - displays all contents, including hidden files
-
-`ls -l`  - displays the long format listing
-
-`ls -lh`  - displays human readable sizes of long formatted listing
-
-`ls -lah` - displays all contents, including hidden files, in human readable sizes of long formatted listing
-
-`ls -t`  - displays the newest files first based on timestamp
-
-`ls -Glp`- displays directories with slash ("/") in long listing format without the Group names
-
+`ls`  - lists all files in a directory  
+`ls -a`  - displays all contents, including hidden files  
+`ls -l`  - displays the long format listing  
+`ls -lh`  - displays human readable sizes of long formatted listing  
+`ls -lah` - displays all contents, including hidden files, in human readable sizes of long formatted listing  
+`ls -t`  - displays the newest files first based on timestamp  
+`ls -Glp`- displays directories with slash ("/") in long listing format without the Group names  
 
 ### Q3.  More List Files in Unix  
 
@@ -86,15 +79,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 > > 
 
-`ls -c`	Displays files by file timestamp
-
-`ls -d`	Displays only directories
-
-`ls -m`	Displays the names as a comma-separated list
-
-`ls -r`	Displays files in reverse order
-
-`ls -R`	Displays subdirectories as well
+`ls -c`	Displays files by file timestamp  
+`ls -d`	Displays only directories  
+`ls -m`	Displays the names as a comma-separated list  
+`ls -r`	Displays files in reverse order  
+`ls -R`	Displays subdirectories as well  
 
 > >
 
@@ -104,7 +93,18 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs is a command that is used to build and execute commands from standard input by converting input from standard input into arguments to a command.  This is useful because some commands only take inputs as arguments.  
+
+In the example below, xargs is used in conjuntion with the find command and then piped through the remove command:  
+
+$ ls
+one.c  one.h  two.c
+
+$ find . -name "*.c" | xargs rm
+
+$ ls
+one.h  
+
 
  
 
