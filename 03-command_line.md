@@ -65,14 +65,20 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> >
-`ls`  - lists all files in a directory **
-`ls -a`  - displays all contents, including hidden files**
-`ls -l`  - displays the long format listing**
-`ls -lh`  - displays human readable sizes of long formatted listing**
-`ls -lah` - displays all contents, including hidden files, in human readable sizes of long formatted listing**
-`ls -t`  - displays the newest files first based on timestamp**
+`ls`  - lists all files in a directory
+
+`ls -a`  - displays all contents, including hidden files
+
+`ls -l`  - displays the long format listing
+
+`ls -lh`  - displays human readable sizes of long formatted listing
+
+`ls -lah` - displays all contents, including hidden files, in human readable sizes of long formatted listing
+
+`ls -t`  - displays the newest files first based on timestamp
+
 `ls -Glp`- displays directories with slash ("/") in long listing format without the Group names
+
 
 ### Q3.  More List Files in Unix  
 
@@ -80,11 +86,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 > > 
 
-ls -c	Displays files by file timestamp**
-ls -d	Displays only directories  **
-ls -m	Displays the names as a comma-separated list**
-ls -r	Displays files in reverse order**
-ls -R	Displays subdirectories as well**
+`ls -c	Displays files by file timestamp`
+`ls -d	Displays only directories`
+`ls -m	Displays the names as a comma-separated list`
+`ls -r	Displays files in reverse order`
+`ls -R	Displays subdirectories as well`
 
 > >
 
